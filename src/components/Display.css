@@ -1,0 +1,15 @@
+.display{
+    /*Quantas linhas do meu grid ele vai ocupar*/
+    grid-column: span 4;
+    background-color: #0004;
+
+    /*Dentro do display usar o flexbox*/
+    display: flex;
+    /*Alinhar do lado direito*/
+    justify-content: flex-end;
+    /*Centralizar o conteudo*/
+    align-items: center;
+
+    padding: 20px;
+    font-size: 2.1em;
+}

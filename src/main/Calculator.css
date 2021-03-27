@@ -8,5 +8,5 @@
     /*Eu vou ter 4 colunas de 25%*/
     grid-template-columns: repeat(4, 25%);
     /*Tamanho das linhas*/
-    grid-template-rows: 48px 48px 48px 48px 48px;
+    grid-template-rows: 1fr 48px 48px 48px 48px 48px;
 }
