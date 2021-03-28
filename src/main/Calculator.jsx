@@ -4,10 +4,25 @@ import './Calculator.css'
 import Button from '../components/Button'
 import Display from '../components/Display'
 export default class Calculator extends Component {
+
+    /*Limpar o display*/
+    clearMemory(){
+        console.log('limpar')
+    }
+
+    /*Se ele colocou divisão, multiplicação, adição ou subtração*/
+    setOperation(operation){
+        console.log(operation)
+    }
+
+    addDigit(n){
+
+    }
+
     render() {
         return(
             <div className="calculator">
-                <Display value={10000000000000000}/>
+                <Display value={100}/>
                 <Button label="AC"/>
                 <Button label="/"/>
                 <Button label="7"/>

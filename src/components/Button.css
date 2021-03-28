@@ -13,3 +13,29 @@
     /*Comando para tirar aquelas linhas de quando clicamos no botão ela aparece*/
     outline: none;
 }
+
+/* Quando clicar no botão, mudar a cor dele*/
+.button:active {
+    background-color: #ccc;
+}
+
+/*Botão com 2 posições*/
+.button.double {
+    grid-column: span2;
+}
+
+/*Botão com 3 posições*/
+.button.triple {
+    grid-column: span3;
+}
+
+/*Botão das operações*/
+.button.operation {
+    background-color: #fa8231;
+    color: #fff;
+}
+
+/*QUando o botão estiver ativo*/
+.button.operation:active {
+    background-color: #fa8231cc;
+}
