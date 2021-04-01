@@ -21,12 +21,12 @@
 
 /*Botão com 2 posições*/
 .button.double {
-    grid-column: span2;
+    grid-column: span 2;
 }
 
 /*Botão com 3 posições*/
 .button.triple {
-    grid-column: span3;
+    grid-column: span 3;
 }
 
 /*Botão das operações*/
